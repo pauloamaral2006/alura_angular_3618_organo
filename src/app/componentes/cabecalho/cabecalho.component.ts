@@ -5,7 +5,7 @@ import { Component, Input } from '@angular/core';
   standalone: true,
   imports: [],
   templateUrl: './cabecalho.component.html',
-  styleUrl: './cabecalho.component.css'
+  styleUrl: './cabecalho.component.css',
 })
 export class CabecalhoComponent {
   @Input() src = '';
