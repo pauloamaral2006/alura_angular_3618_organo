@@ -6,7 +6,7 @@
 
 ## 📘Ementa
 
-### Angular: design de componentes com acessibilidade
+### Angular: implemente testes de unidade com Jest
 
 - Explorar os benefícios dos testes de unidade, compreendendo sua importância no desenvolvimento de software e sua capacidade de identificar e prevenir bugs e melhorar a manutenibilidade do código
 - Configurar o ambiente de teste para projetos Angular, incluindo a instalação e configuração do Jest
