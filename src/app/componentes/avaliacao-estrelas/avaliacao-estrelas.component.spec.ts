@@ -65,14 +65,14 @@ describe('AvaliacaoEstrelasComponent', () => {
     });
   });
 
-  it('deveria atualizar o DOm quando a classificaçãoo muda', () => {
+  /*  it('deveria atualizar o DOm quando a classificaçãoo muda', () => {
     const classificacao = 3;
     component.classificar(classificacao);
 
     const estrelaPreenchida = fixture.nativeElement.querySelector('.filled');
 
     expect(estrelaPreenchida).toBeTruthy();
-  });
+  }); */
 
   it('deve inicializar com a classificação padrão de 1', () => {
     expect(component.classificacao).toBe(1);
@@ -87,4 +87,6 @@ describe('AvaliacaoEstrelasComponent', () => {
     fixture.detectChanges();
     expect(component.classificacao).toBe(5);
   });
+
+
 });

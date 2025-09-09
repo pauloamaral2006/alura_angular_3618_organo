@@ -1,38 +1,30 @@
-![Thumbnail](./thumb.png)
-
 # Organo
 
-O Organo é um aplicativo organizador de leituras que permite cadastrar livros, incluindo informações como título, autoria, imagem, gênero, data da leitura e classificação.
+## ℹ️ Sobre
 
-## 🔨 Funcionalidades do projeto
+<p>Projeto utilizado no curso para aprendizado das técnicas e melhores práticas.</p>
 
-`Cadastro de livros`: Permite adicionar novos livros à lista, inserindo informações como título, autoria, imagem, gênero, data da leitura e classificação.
+## 📘Ementa
 
-`Listagem de livros`: Exibe os livros cadastrados, separados por gênero literário, exibindo a imagem e demais informações.
+### Angular: design de componentes com acessibilidade
 
-## ✔️ Técnicas e tecnologias utilizadas
+- Explorar os benefícios dos testes de unidade, compreendendo sua importância no desenvolvimento de software e sua capacidade de identificar e prevenir bugs e melhorar a manutenibilidade do código
+- Configurar o ambiente de teste para projetos Angular, incluindo a instalação e configuração do Jest
+- Entender a estrutura básica de um teste unitário com Jest, as funções describe, it, expect, entre outras, para descrever e verificar o comportamento do código
+- Utilizar beforeEach para configurar o estado do teste antes da execução de cada caso de teste, garantindo uma base consistente para os testes
+- Explorar as diversas funcionalidades do TestBed, como a configuração de serviços simulados e a injeção de dependências, para isolar os componentes e garantir testes independentes e confiáveis
+Explore o uso do spyOn para espionar e controlar o comportamento de métodos durante os testes em Angular
 
-As técnicas e tecnologias utilizadas pra isso são:
+## 🖥️ Tecnologias
 
+<div>
+  <img src="https://img.shields.io/badge/HTML-%23E34F26.svg?logo=html5&logoColor=white">
+  <img src="https://img.shields.io/badge/CSS-1572B6?logo=css3&logoColor=fff">
+  <img src="https://img.shields.io/badge/Angular-%23DD0031.svg?logo=angular&logoColor=white">
+</div>
 
-`Angular`: Framework utilizado para construir a aplicação, na versão 17.
+## 🧑‍🏫 Instrutor(es)
 
-`Jest`: Estrutura de teste utilizada para realizar testes de unidade.
+| [<img loading="lazy" src="https://avatars.githubusercontent.com/u/103528784?v=4" width=115><br><sub>Nayanne Batista</sub>](https://github.com/nayannelbatista) |
+| :------------------------------------------------------------------------------------------------------------------------------------------------------------: |
 
-## 📁 Link do Figma
-
-Você pode [acessar o figma do projeto aqui](https://www.figma.com/file/GYv8FnRc51ZDfGmi2zzaQb/Organo-%7C-Angular?type=design&node-id=134-128&mode=design).
-
-
-## 🛠️ Abrir e rodar o projeto
-
-Você vai precisar do NodeJS, versão 18 ou maior.
-Após baixar o projeto, você precisa instalar as dependências utilizando o comando:
-```bash
-npm install
-```
-Depois, para executar o projeto em modo desenvolvimento:
-```bash
-ng serve
-```
-Então, acesse [http://localhost:4200/](url) no seu navegador.
